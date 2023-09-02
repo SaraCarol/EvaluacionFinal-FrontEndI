@@ -13,10 +13,8 @@
 nav{
     display: flex;
     justify-content: space-evenly;
-    background-color:aquamarine;
     align-items: center;
     height: 140px;
-    
 }
 
 .menu-inicio ul, .menu-inicio button, #check{
@@ -55,4 +53,16 @@ nav{
 
 .hamburguer-menu{
     width: 70%;
+    margin-left: 140%;
+}
+
+/*Sección inicio*/
+.inicio{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.img-inicio img{
+    width: 80vw;
 }
