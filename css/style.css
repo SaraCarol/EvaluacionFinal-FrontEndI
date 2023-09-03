@@ -4,4 +4,82 @@
     padding: 0;
     margin: 0;
     font-family: 'Be Vietnam Pro', sans-serif;
+    box-sizing: border-box;
+    
 }
+
+main, header, footer {
+    width: 100vw;
+}
+
+footer{
+    background-color: rgba(30, 30, 38, 1);
+}
+
+.redes-sociales, .nav-footer {
+    color: rgba(255, 255, 255, 1);
+}
+
+a {
+    text-decoration: none;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    padding: 30px 30px;
+}
+
+input{
+    border-radius: 50px;
+    padding: 10px 15px 10px;
+    width: 50vw;
+    height: 35px;
+    border: 5px;
+    margin-right: 10px;
+}
+
+.go-button {
+    /* padding: 10px 15px 10px; */
+    border-radius: 30px;   
+    border: 5px;
+    width: 12vw;
+    background-color: rgba(139, 72, 191, 1);
+    color: white;
+        
+}
+
+.nav-footer-left, .nav-footer-right {
+    list-style: none;
+}
+
+.contenedor-listas {
+    display: flex;
+    margin: 20px 5px;
+    justify-content: space-around;
+    
+}
+li{
+    padding: 10px;
+    margin-left: -15px;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.logo-footer, .copyright{
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    color: rgba(140, 140, 148, 1);
+   
+}
+
+
+
+
+
+
