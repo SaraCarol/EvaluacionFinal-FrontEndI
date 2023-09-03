@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+main, header, footer {
+    width: 100vw;
+}
+
 /*Menú de navegación*/
 /*Para PC*/
 /*padding: 65px 165px;*/
@@ -60,12 +64,13 @@
 .inicio{
     display: flex;
     flex-direction: column;
-    padding: 0 10%;
+    padding: 0 9%;
 }
 
 .img-inicio {
     display: flex;
     justify-content: center;
+    margin-bottom: 5%;
 }
 
 .img-inicio img{
@@ -74,19 +79,29 @@
 }
 
 .parrafos-inicio{
-    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: end;
+    font-size: 16.5px;
+    margin: 10% 0;
+}
+
+.parrafos-inicio p{
+    font-weight:500;
+    margin-bottom: 5%;
+
 }
 
 .parrafos-inicio p:first-child{
     font-size: 50px;
+    font-weight: bold;
+    color: #232C50;
 }
     
 /*Laura*/
-main, header, footer {
-    width: 100vw;
-}
 
-footer{
+/*footer{
     background-color: rgba(30, 30, 38, 1);
 }
 
@@ -115,7 +130,7 @@ input{
 
 .go-button {
     /* padding: 10px 15px 10px; */
-    border-radius: 30px;   
+   /* border-radius: 30px;   
     border: 5px;
     width: 12vw;
     background-color: rgba(139, 72, 191, 1);
@@ -151,6 +166,7 @@ li{
     color: rgba(140, 140, 148, 1);
    
 }
+*/
 
 .go-for-it{
     background-color: rgba(60, 221, 243, 1);
