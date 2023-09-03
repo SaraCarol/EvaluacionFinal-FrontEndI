@@ -104,6 +104,65 @@ li{
     margin: 30px auto 30px;
 }
 
+.sanyo, .navarro {
+    display: none;
+}
+
+.lebron > div{
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(250, 250, 250, 1);
+    width: 95vw;
+    margin: auto;
+    
+}
+.lebron > div > img {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    margin-top: -10%;
+
+}
+.lebron > div > p{
+    color: rgba(185, 185, 193, 1);
+    margin: 25px;
+    font-size: 16px;
+}
+
+.lebron > div > h3{
+    color: rgba(63, 72, 104, 1);
+    margin-top: 20px;
+    font-size: 16.07px;
+}
+.best-of-the-month{
+    display: flex;
+    flex-direction: column;
+}
+.best-of-the-month > h2{
+    margin: 70px ;
+    text-align: center;
+    color: rgba(36, 46, 83, 1);
+    font-size: 39.21px;
+    
+}
+
+.best-of-the-month > button {
+    width: 25vw;
+    background-color: rgba(139, 72, 191, 1);
+    margin: auto;
+    border-radius: 25px;
+    height: 40px;
+    border: 5px;
+    color: white;
+    margin-bottom: 30px;
+    font-size: 13px;
+    
+    
+}
+
 
 
 
