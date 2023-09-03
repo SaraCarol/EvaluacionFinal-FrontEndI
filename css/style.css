@@ -60,9 +60,23 @@ nav{
 .inicio{
     display: flex;
     flex-direction: column;
-    
+    padding: 0 10%;
+}
+
+.img-inicio {
+    display: flex;
+    justify-content: center;
 }
 
 .img-inicio img{
-    width: 80vw;
+    width: 100vw;
+    padding: 0 13%;
+}
+
+.parrafos-inicio{
+    font-size: 20px;
+}
+
+.parrafos-inicio p:first-child{
+    font-size: 50px;
 }
