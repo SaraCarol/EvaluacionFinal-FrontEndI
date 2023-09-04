@@ -308,6 +308,48 @@ li{
     font-size: 13px;   
 }
 
+@media (min-width: 500px){
+    footer {
+       
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    input{
+        
+        width: 12vw;
+        
+    }
+
+    .go-button {        
+        border: 5px;
+        width: 5vw;
+        height: 35px;
+            
+    }
+
+    .logo-mas-redes{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+    }
+    .logo-footer{
+        margin: auto;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .item-flex-footer{
+        
+        flex-grow: 0; /* Los elementos no pueden crecer */
+        flex-shrink: 0; /* Los elementos no pueden encogerse */
+        flex-basis: calc(33.33% - 10px); /* Ancho inicial */
+        margin: 5px; 
+    }
+    .item:nth-child(4){
+        flex-basis: 100%;
+    }
+}
 
 
 
