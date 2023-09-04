@@ -12,8 +12,6 @@ main, header, footer {
 }
 
 /*Menú de navegación*/
-/*Para PC*/
-/*padding: 65px 165px;*/
 .nav-inicio{
     display: flex;
     justify-content: space-evenly;
@@ -308,8 +306,8 @@ li{
     font-size: 13px;   
 }
 
-@media (min-width: 480px){
-    
+@media (min-width: 481px){
+   
 }
 
 
