@@ -307,7 +307,22 @@ li{
 }
 
 @media (min-width: 481px){
-   
+    /*Menú de navegación*/
+    .menu-inicio ul, .menu-inicio button{
+        display:initial ;  
+    }
+
+    .label-check{
+        display: none;
+    }
+
+    .nav-inicio{
+        padding: 65px 165px;
+    }
+
+    .menu-inicio ul li a:hover{
+        color: #242e5260;
+    }
 }
 
 
