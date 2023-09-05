@@ -316,12 +316,20 @@ li{
         display: none;
     }
 
-    .nav-inicio{
-        padding: 65px 165px;
-    }
-
     .menu-inicio ul li a:hover{
         color: #242e5260;
+    }
+
+    /*Sección inicio*/
+    .inicio{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .img-inicio img{
+        width: 50vw;
+        padding: 0 13%;
     }
 }
 
