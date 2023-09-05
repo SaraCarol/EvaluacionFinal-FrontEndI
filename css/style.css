@@ -326,10 +326,28 @@ li{
         flex-direction: row;
         align-items: center;
     }
-
+    .img-inicio{
+        margin: 0 3% 0 0;
+    }
     .img-inicio img{
-        width: 50vw;
-        padding: 0 13%;
+        width: 47vw;
+    }
+
+    .frase1 p{
+        width: 45vw;
+        text-align: start;
+    }
+    .frase1 p:first-child{
+        margin: 0;
+        margin-right: 5%;
+    }
+
+    .frase1 {
+        background-color: #8B48BF;
+        display: flex;
+        padding: 2% 13%;
+        margin-bottom: 5%;
+        align-items: center;
     }
 }
 
