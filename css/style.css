@@ -349,6 +349,14 @@ li{
     .item:nth-child(4){
         flex-basis: 100%;
     }
+
+    .redes-sociales {        
+        justify-content: center;
+     }
+
+     .redes-sociales > i {
+        margin: 5px;
+     }
 }
 
 
