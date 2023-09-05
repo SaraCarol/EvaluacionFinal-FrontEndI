@@ -333,6 +333,7 @@ li{
         width: 47vw;
     }
 
+    /*seccion frase1*/
     .frase1 p{
         width: 45vw;
         text-align: start;
@@ -346,8 +347,40 @@ li{
         background-color: #8B48BF;
         display: flex;
         padding: 2% 13%;
-        margin-bottom: 5%;
         align-items: center;
+        margin: 0;
+    }
+
+    /*seccion beneficios*/
+    .beneficios{
+        background-color: #FAFAFA;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 3% 0 0 0;
+    }
+
+    .beneficios article{
+        margin: 0 5%;
+        margin-bottom: 3%;
+        width: 35vw;
+    }
+
+    .num{
+        width: 5vw;
+        padding: 0.8%;
+    }
+
+    .titulo-beneficio{
+        padding: 2.5%;
+        padding-left: 20%;
+        background-color: #FAFAFA;
+        margin: 0;
+    }
+
+    .beneficios p{
+        margin: 2% 0;
+        padding-left: 20%;
     }
 }
 
