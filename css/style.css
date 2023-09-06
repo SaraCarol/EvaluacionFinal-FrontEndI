@@ -362,6 +362,25 @@ li{
         margin: 5px;
         
      }
+     .go-for-it{
+        display: flex;
+        flex-direction: row;
+        background-color: rgba(139, 72, 191, 1);
+        justify-content: space-between;
+     }
+
+     .go-for-it > button {
+        background-color: white;
+        color: rgba(139, 72, 191, 1);
+        width: 10vw;
+        margin: 40px 120px;
+     }
+
+     .go-for-it > h2{
+        width: 40vw;
+        text-align: left;
+        margin: 20px 120px;
+     }
 }
 
 
