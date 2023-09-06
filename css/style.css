@@ -307,7 +307,82 @@ li{
 }
 
 @media (min-width: 481px){
-   
+    /*Menú de navegación*/
+    .menu-inicio ul, .menu-inicio button{
+        display:initial ;  
+    }
+
+    .label-check{
+        display: none;
+    }
+
+    .menu-inicio ul li a:hover{
+        color: #242e5260;
+    }
+
+    /*Sección inicio*/
+    .inicio{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .img-inicio{
+        margin: 0 3% 0 0;
+    }
+    .img-inicio img{
+        width: 47vw;
+    }
+
+    /*seccion frase1*/
+    .frase1 p{
+        width: 45vw;
+        text-align: start;
+    }
+    .frase1 p:first-child{
+        margin: 0;
+        margin-right: 5%;
+    }
+
+    .frase1 {
+        background-color: #8B48BF;
+        display: flex;
+        padding: 2% 13%;
+        align-items: center;
+        margin: 0;
+    }
+
+    /*seccion beneficios*/
+    .beneficios{
+        background-color: #FAFAFA;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 3% 0 0 0;
+    }
+
+    .beneficios article{
+        margin: 0 5%;
+        margin-bottom: 3%;
+        width: 35vw;
+    }
+
+    .num{
+        width: 5vw;
+        padding: 0.8%;
+    }
+
+    .titulo-beneficio{
+        padding: 2.5%;
+        padding-left: 20%;
+        background-color: #FAFAFA;
+        margin: 0;
+        width: 30vw;
+    }
+
+    .beneficios p{
+        margin: 2% 0;
+        padding-left: 20%;
+    }
 }
 
 
