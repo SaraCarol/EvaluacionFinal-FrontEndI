@@ -308,7 +308,7 @@ li{
     font-size: 13px;
 }
 
-@media (min-width: 500px){
+@media (min-width: 481px){
     footer {
 
         display: flex;
