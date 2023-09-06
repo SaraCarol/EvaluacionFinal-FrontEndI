@@ -278,7 +278,7 @@ li{
     font-size: 16px;
 }
 
-.lebron > div > h3{
+.lebron > div > h3, .sanyo > div > h3, .navarro > div > h3{
     color: rgba(63, 72, 104, 1);
     margin-top: 20px;
     font-size: 16.07px;
@@ -339,6 +339,14 @@ li{
         align-items: center;
         margin-top: 20px;
         margin-bottom: 0px;
+    }
+    .logo-footer > img {
+        width: 7vw;
+        margin-left: -38px;
+    }
+
+    .nav-footer-left {
+        margin-right: 174px;
     }
     .item-flex-footer{
 
@@ -402,8 +410,8 @@ li{
     .sanyo, .lebron, .navarro {
         width: 30vw;
         height: 50vh;
-        margin: 10px;
-        padding: 5px;
+        /* margin: 10px; */
+        /* padding: 5px; */
     
     }
 
