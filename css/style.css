@@ -254,7 +254,7 @@ li{
     display: none;
 }
 
-.lebron > div{
+.lebron > div, .sanyo > div, .navarro > div{
     display: flex;
     padding: 15px;
     justify-content: center;
@@ -265,14 +265,14 @@ li{
     margin: auto;
 
 }
-.lebron > div > img {
+.lebron > div > img, .sanyo > div > img, .navarro > div > img {
     width: 60px;
     height: 60px;
     margin: auto;
     margin-top: -10%;
 
 }
-.lebron > div > p{
+.lebron > div > p, .sanyo > div > p, .navarro > div > p{
     color: rgba(185, 185, 193, 1);
     margin: 25px;
     font-size: 16px;
@@ -379,7 +379,48 @@ li{
         text-align: left;
         margin: 20px 120px;
      }
+     .sanyo, .navarro, .lebron {
+        display: flex;
+    }
+    .best-of-the-month{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-bottom: 130px;
+    }
+    /* .sanyo, .navarro, .lebron {
+        width: 20vw;
+    } */
+    .players {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+
+    .sanyo, .lebron, .navarro {
+        width: 30vw;
+        height: 50vh;
+        margin: 10px;
+        padding: 5px;
+    
+    }
+
+    .best-of-the-month > button {
+        width: 10vw;
+    }
+
+    .lebron > div > img, .sanyo > div > img, .navarro > div > img {
+        /* width: 60px;
+        height: 60px;
+        margin: auto; */
+        margin-top: -15%;
+    
+    }
 }
+
+/* Media querie Sara */
 
 @media (min-width: 481px){
     /*Menú de navegación*/
