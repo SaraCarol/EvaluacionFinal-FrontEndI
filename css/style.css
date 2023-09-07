@@ -242,6 +242,7 @@ li{
     border: 5PX;
     color: white;
     font-size: 0.8rem;
+    box-shadow: 0 0.1rem 0.5rem rgba(30, 30, 38, 0.5);
 
     }
 
@@ -306,6 +307,7 @@ li{
     font-size: 13px;
 }
 
+/* media queries Laura */
 @media (min-width: 481px){
     footer {
 
@@ -331,13 +333,14 @@ li{
         display: flex;
         flex-direction: column-reverse;
         justify-content: space-between;
-        height: 26vh;
+        height: 27vh;
+        padding: 0px;
     }
     .logo-footer{
         margin: auto;
         justify-content: flex-start;
         align-items: center;
-        margin-top: 20px;
+        margin-top: 25px;
         margin-bottom: 0px;
     }
     .logo-footer > img {
@@ -361,11 +364,12 @@ li{
 
     .redes-sociales {
         justify-content: center;
+    
         
      }
 
      .redes-sociales > i {
-        margin: 5px;
+        margin: -5px 5px;
         
      }
      .go-for-it{
@@ -426,6 +430,48 @@ li{
         margin-top: -15%;
     
     }
+
+    button:hover {
+        background-color: rgba(139, 72, 191, 0.7);
+        /* box-shadow: 10px 10px rgba(0,0,0,0.5); */
+    }
+    .go-for-it > button:hover {
+        color: white;
+        background-color: #3CDDF3;
+    }
+
+    .rotate-diagonal-2:hover {
+        -webkit-animation: rotate-diagonal-2 0.4s linear both;
+                animation: rotate-diagonal-2 0.4s linear both;
+    }
+    @-webkit-keyframes rotate-diagonal-2 {
+        0% {
+          -webkit-transform: rotate3d(-1, 1, 0, 0deg);
+                  transform: rotate3d(-1, 1, 0, 0deg);
+        }
+        50% {
+          -webkit-transform: rotate3d(-1, 1, 0, 180deg);
+                  transform: rotate3d(-1, 1, 0, 180deg);
+        }
+        100% {
+          -webkit-transform: rotate3d(-1, 1, 0, 360deg);
+                  transform: rotate3d(-1, 1, 0, 360deg);
+        }
+      }
+      @keyframes rotate-diagonal-2 {
+        0% {
+          -webkit-transform: rotate3d(-1, 1, 0, 0deg);
+                  transform: rotate3d(-1, 1, 0, 0deg);
+        }
+        50% {
+          -webkit-transform: rotate3d(-1, 1, 0, 180deg);
+                  transform: rotate3d(-1, 1, 0, 180deg);
+        }
+        100% {
+          -webkit-transform: rotate3d(-1, 1, 0, 360deg);
+                  transform: rotate3d(-1, 1, 0, 360deg);
+        }
+      }
 }
 
 /* Media querie Sara */
