@@ -433,7 +433,7 @@ li{
 
     button:hover {
         background-color: rgba(139, 72, 191, 0.7);
-        /* box-shadow: 10px 10px rgba(0,0,0,0.5); */
+        cursor: pointer;
     }
     .go-for-it > button:hover {
         color: white;
