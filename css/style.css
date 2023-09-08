@@ -167,7 +167,6 @@ footer{
     color: rgba(255, 255, 255, 1);
 }
 
-
 form {
     display: flex;
     justify-content: center;
@@ -201,8 +200,8 @@ input{
     display: flex;
     margin: 20px 5px;
     justify-content: space-around;
-
 }
+
 li {
     padding: 10px;
     margin-left: -15px;
@@ -305,7 +304,6 @@ li {
 
 @media (min-width: 481px){
     footer {
-
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
@@ -345,7 +343,6 @@ li {
         margin-right: 174px;
     }
     .item-flex-footer{
-
         flex-grow: 0; 
         flex-shrink: 0; 
         flex-basis: calc(33.33% - 10px); 
@@ -357,31 +354,31 @@ li {
 
     .redes-sociales {
         justify-content: center;           
-     }
+    }
 
-     .redes-sociales > i {
+    .redes-sociales > i {
         margin: -5px 5px;        
-     }
-     .go-for-it{
+    }
+    .go-for-it{
         display: flex;
         flex-direction: row;
         background-color: rgba(139, 72, 191, 1);
         justify-content: space-between;
-     }
+    }
 
-     .go-for-it > button {
+    .go-for-it > button {
         background-color: white;
         color: rgba(139, 72, 191, 1);
         width: 10vw;
         margin: 40px 120px;
-     }
+    }
 
-     .go-for-it > h2{
+    .go-for-it > h2{
         width: 40vw;
         text-align: left;
         margin: 20px 120px;
-     }
-     .sanyo, .navarro, .lebron {
+    }
+    .sanyo, .navarro, .lebron {
         display: flex;
     }
     .best-of-the-month{
@@ -390,19 +387,17 @@ li {
         flex-wrap: wrap;
         margin-bottom: 130px;
     }
-    
+
     .players {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: center;
-        
+        justify-content: center;        
     }
 
     .sanyo, .lebron, .navarro {
         width: 30vw;
-        height: 50vh;      
-    
+        height: 50vh;          
     }
 
     .best-of-the-month > button {
@@ -428,33 +423,33 @@ li {
     }
     @-webkit-keyframes rotate-diagonal-2 {
         0% {
-          -webkit-transform: rotate3d(-1, 1, 0, 0deg);
-                  transform: rotate3d(-1, 1, 0, 0deg);
+        -webkit-transform: rotate3d(-1, 1, 0, 0deg);
+        transform: rotate3d(-1, 1, 0, 0deg);
         }
         50% {
-          -webkit-transform: rotate3d(-1, 1, 0, 180deg);
-                  transform: rotate3d(-1, 1, 0, 180deg);
+        -webkit-transform: rotate3d(-1, 1, 0, 180deg);
+        transform: rotate3d(-1, 1, 0, 180deg);
         }
         100% {
-          -webkit-transform: rotate3d(-1, 1, 0, 360deg);
-                  transform: rotate3d(-1, 1, 0, 360deg);
+        -webkit-transform: rotate3d(-1, 1, 0, 360deg);
+        transform: rotate3d(-1, 1, 0, 360deg);
         }
-      }
-      @keyframes rotate-diagonal-2 {
+    }
+    @keyframes rotate-diagonal-2 {
         0% {
-          -webkit-transform: rotate3d(-1, 1, 0, 0deg);
-                  transform: rotate3d(-1, 1, 0, 0deg);
+        -webkit-transform: rotate3d(-1, 1, 0, 0deg);
+        transform: rotate3d(-1, 1, 0, 0deg);
         }
         50% {
-          -webkit-transform: rotate3d(-1, 1, 0, 180deg);
-                  transform: rotate3d(-1, 1, 0, 180deg);
+        -webkit-transform: rotate3d(-1, 1, 0, 180deg);
+        transform: rotate3d(-1, 1, 0, 180deg);
         }
         100% {
-          -webkit-transform: rotate3d(-1, 1, 0, 360deg);
-                  transform: rotate3d(-1, 1, 0, 360deg);
+        -webkit-transform: rotate3d(-1, 1, 0, 360deg);
+        transform: rotate3d(-1, 1, 0, 360deg);
         }
-      }
-      /*Menú de navegación*/
+    }
+    /*Menú de navegación*/
     .menu-inicio ul, .menu-inicio button{
         display:initial ;  
     }
