@@ -19,7 +19,7 @@ main, header, footer {
     height: 140px;
 }
 
-.menu-inicio ul, .menu-inicio button, #check{
+.menu-inicio ul, .menu-inicio button, #check, .sanyo, .navarro{
     display: none
 }
 
@@ -37,7 +37,7 @@ main, header, footer {
     padding: 0 20px;
 }
 
-.menu-inicio ul li a{
+.menu-inicio ul li a, a{
     font-size: 13px;
     text-decoration: none;
     color: #242E52;
@@ -157,7 +157,7 @@ main, header, footer {
     padding: 2%;
     padding-left: 10%;
 }
-/*Laura*/
+/* Footer */
 
 footer{
     background-color: rgba(30, 30, 38, 1);
@@ -167,9 +167,6 @@ footer{
     color: rgba(255, 255, 255, 1);
 }
 
-a {
-    text-decoration: none;
-}
 
 form {
     display: flex;
@@ -187,7 +184,7 @@ input{
 }
 
 .go-button {
-    /* padding: 10px 15px 10px; */
+    
     border-radius: 30px;
     border: 5px;
     width: 12vw;
@@ -206,7 +203,7 @@ input{
     justify-content: space-around;
 
 }
-li{
+li {
     padding: 10px;
     margin-left: -15px;
 }
@@ -223,6 +220,8 @@ li{
     padding: 10px;
     color: rgba(140, 140, 148, 1);
 }
+
+/* seccion go-for-it */
 
 .go-for-it{
     background-color: rgba(60, 221, 243, 1);
@@ -251,10 +250,7 @@ li{
     margin: 30px auto 30px;
 }
 
-.sanyo, .navarro {
-    display: none;
-}
-
+/* seccion best-of-the-month */
 .lebron > div, .sanyo > div, .navarro > div{
     display: flex;
     padding: 15px;
@@ -307,7 +303,6 @@ li{
     font-size: 13px;
 }
 
-/* media queries Laura */
 @media (min-width: 481px){
     footer {
 
@@ -317,16 +312,13 @@ li{
         flex-wrap: wrap;
     }
     input{
-
         width: 15vw;
-
     }
 
     .go-button {
         border: 5px;
         width: 5vw;
         height: 35px;
-
     }
 
     .logo-mas-redes{
@@ -336,6 +328,7 @@ li{
         height: 27vh;
         padding: 0px;
     }
+
     .logo-footer{
         margin: auto;
         justify-content: flex-start;
@@ -353,9 +346,9 @@ li{
     }
     .item-flex-footer{
 
-        flex-grow: 0; /* Los elementos no pueden crecer */
-        flex-shrink: 0; /* Los elementos no pueden encogerse */
-        flex-basis: calc(33.33% - 10px); /* Ancho inicial */
+        flex-grow: 0; 
+        flex-shrink: 0; 
+        flex-basis: calc(33.33% - 10px); 
         margin: 5px;
     }
     .item:nth-child(4){
@@ -363,14 +356,11 @@ li{
     }
 
     .redes-sociales {
-        justify-content: center;
-    
-        
+        justify-content: center;           
      }
 
      .redes-sociales > i {
-        margin: -5px 5px;
-        
+        margin: -5px 5px;        
      }
      .go-for-it{
         display: flex;
@@ -400,9 +390,7 @@ li{
         flex-wrap: wrap;
         margin-bottom: 130px;
     }
-    /* .sanyo, .navarro, .lebron {
-        width: 20vw;
-    } */
+    
     .players {
         display: flex;
         flex-direction: row;
@@ -413,9 +401,7 @@ li{
 
     .sanyo, .lebron, .navarro {
         width: 30vw;
-        height: 50vh;
-        /* margin: 10px; */
-        /* padding: 5px; */
+        height: 50vh;      
     
     }
 
@@ -423,12 +409,8 @@ li{
         width: 10vw;
     }
 
-    .lebron > div > img, .sanyo > div > img, .navarro > div > img {
-        /* width: 60px;
-        height: 60px;
-        margin: auto; */
-        margin-top: -15%;
-    
+    .lebron > div > img, .sanyo > div > img, .navarro > div > img {        
+        margin-top: -15%;    
     }
 
     button:hover {
@@ -472,12 +454,7 @@ li{
                   transform: rotate3d(-1, 1, 0, 360deg);
         }
       }
-}
-
-/* Media querie Sara */
-
-@media (min-width: 481px){
-    /*Menú de navegación*/
+      /*Menú de navegación*/
     .menu-inicio ul, .menu-inicio button{
         display:initial ;  
     }
@@ -554,6 +531,8 @@ li{
         padding-left: 20%;
     }
 }
+
+
 
 
 
